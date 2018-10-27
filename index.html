@@ -1,72 +1,106 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Speakhub</title>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Speakhub</title>
 	<style type="text/css">
-	  	html, body {
-	  		height: 100vh;
-	  		margin: 0;
-	  		font-family: sans-serif;
-	  		color: #1d315e;
-	  	}
-	  	img {
-	  		display: block;
-	  		margin: auto;
-	  	}
-	  	a {
-	  		color: #1d315e;
-	  	}
-	  	.cta-signup {
-	  		padding: 1rem 1.5rem;
-	  		background-color: #1d315e;
-	  		color: white;
-	  		border-radius: 3rem;
-	  		text-decoration: none;
-	  	}
-	  	.container {
-	  		display: flex;
-	  		justify-content: center;
-	  		align-items: center;
-	  		height: 100%;
-	  		text-align: center;
-	  	}
-	  	.content {
-	  		padding: 1.5rem;
-	  	}
-	</style>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126337768-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+	html, body {
+		height: 100vh;
+		margin: 0;
+		font-family: sans-serif;
+		background-color: #f9f9f9;
+		color: #15334F;
+	}
+	h2, h3 {
+		text-align: center;
+	}
+	h3 {
+		margin-top: 2rem;
+	}
+	img {
+		display: block;
+		margin: auto;
+	}
+	a {
+		color: #1d315e;
+	}
+	.section {
+		padding: 2rem 0;
+	}
+	.card {
+		box-shadow: 0 1rem 3rem rgba(0, 0, 0, .04);
+		text-align: center;
+		border-radius: 0.5rem;
+		background-color: #fff;
+		padding: 2rem;
+	}
+	.cta-signup {
+		padding: 1rem 1.5rem;
+		background-color: #007AFF;
+		color: white;
+		border-radius: 3rem;
+		text-decoration: none;
+		font-weight: 700;
+	}
+	.container {
+		max-width: 600px;
+		margin: 0 auto;
+		padding: 1rem;
+	}
+	.footer {
+		text-align: center;
+	}
+</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126337768-1"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
 
-	  gtag('config', 'UA-126337768-1');
-	</script>
-	</script>
-	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	gtag('config', 'UA-126337768-1');
+</script>
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-PT56PXG');</script>
-	<!-- End Google Tag Manager -->
-  </head>
-  <body>
-  	<!-- Google Tag Manager (noscript) -->
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PT56PXG');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body>
+	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PT56PXG"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
-  	<div class="container">
-  		<div class="content">
-		  	<img src="assets/speakhub-logo.jpg" style="width:200px" alt="Speakhub">
-		  	<h1>說英文課程<br>English Speaking Lesson</h1>
-		  	<p style="margin-bottom: 2rem;">24 Nov 2018 2:30pm-4:00pm<br>地點: 待確認</p>
-		  	<a href="https://goo.gl/forms/uHktdxeXsNJtQrJz2" class="cta-signup">立即申請 / Sign up now</a>
-		  	<p style="margin-top: 2rem;"><small>聯繫我們: <a href="mailto:speakhub.hk@gmail.com">speakhub.hk@gmail.com</a></small></p>
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+		<div class="container">
+			<div class="section header">
+				<img src="assets/horizontal-color.svg" style="width:200px" alt="SpeakHub logo">
+			</div>
+			<div class="section card">
+				<h1>免費英語會話課程<br></h1>
+				<p>12月 2日 2018 (日)<br>第1節: 2:30-3:30pm<br>第2節: 3:30-4:30pm</p>
+				<p style="margin-bottom: 3rem"><a href="https://www.facebook.com/parentclubhk" target="_blank"><img src="assets/parentclub-logo.png" style="width:128px;" alt="Parent Club"/></a><br>太子砵蘭街450-454號HQ大廈8樓C室 Orange room (近太子鋼鐵站D出口)</p>
+				<a href="https://goo.gl/forms/ZyMGcV16Z6b6gsul1" class="cta-signup">立即報名</a>
+				<p style="margin-top: 2rem;"><small>聯繫我們: <a href="mailto:speakhub.hk@gmail.com">speakhub.hk@gmail.com</a></small></p>
+			</div>
+			<div class="section about">
+				<h2>關於我們</h2>
+				<h3>Speakhub是什麽？</h3>
+				<p>Speakhub是一個非牟利機構,以為基層學生提供免費英語會話課程為理念。</p>
+				<p>現時香港教育制度過份重視考試及試題操練，缺乏給予學生以英語溝通及互動的機會。因此，很多本地學生對英語溝通缺乏信心，從而影響到他們在升學或未來職場上表現自己的機會。</p>
+				<p>此外，隨著社會及國際性發展，在港就業的外籍及海外回流人士日益漸增，令英語會話的重要性不斷增加。學生若能掌握流利的英語會話技巧，便可有自信地應付不同場合的需要，從而把握任何國際性發展的機遇。</p>
+				<h3>Speakhub導師團隊</h3>
+				<p>我們發現有很多外籍及海外回流人士踴躍於為香港社會作出貢獻，但由於缺乏適當的平台及渠道，從而錯失機會。所以我們決定成立Speakhub， 竭力打造一個平台讓他們參與義務教育工作，以小組形式 (約5-6位學生一班)上課，務求為學生帶來純正的英語會話教學。課程會採用外國的教學模式, 以互動，討論及戲劇 (SDRD) 形式，培養學生的英語表達技巧及信心。</p>
+				<h3>Speakhub的發展</h3>
+				<p>有別於其他教育機構，我們希望Speakhub可以為學生提供長期服務。我們務求令每一位學生可以充滿自信及流暢地使用英語表達自己，從而與他們一起增值及成長。</p>
+			</div>
+			<div class="section footer">
+				<a href="https://goo.gl/forms/ZyMGcV16Z6b6gsul1" class="cta-signup">立即報名</a>
+				<p style="margin-top: 2rem;"><small>聯繫我們: <a href="mailto:speakhub.hk@gmail.com">speakhub.hk@gmail.com</a> | <a href="https://www.facebook.com/speakhubhk/" target="_blank">Facebook</a></small></p>
+			</div>
 		</div>
-  	</div>
-  </body>
-</html>
+	</body>
+	</html>
